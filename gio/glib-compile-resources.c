@@ -852,6 +852,7 @@ main (int argc, char **argv)
 	    }
 
 	  c_name = g_string_free (s, FALSE);
+	  g_free (base);
 	}
     }
   else
